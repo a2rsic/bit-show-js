@@ -13,11 +13,11 @@ const init = () => {
         ui.displayMovies(movie1);
     })
 
-    // $searchButton.on("click", function () {
-    //     data.getSearchData($input.val(), function () {
-    //         ui.displayMovies(movie1);
-    //     })
-    // })
+    $searchButton.on("click", function () {
+        data.getSearchData($input.val(), function () {
+            ui.displayMovies();
+        })
+    })
 }
 
 

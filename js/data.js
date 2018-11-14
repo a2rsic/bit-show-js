@@ -30,23 +30,24 @@ const getData = (onSuccess) => {
     })
 }
 
-// const getSearchData = (inputText, onSearchSuccess) => {
-//     const searchBase = `"http://api.tvmaze.com/search/shows?q="${inputText}`;
+const getSearchData = (inputText, onSearchSuccess) => {
+    const searchBase = `http://api.tvmaze.com/search/shows?q=${inputText}`;
 
-//     const searchRequest = $.ajax({
-//         url: searchBase
-//     })
+    const searchRequest = $.ajax({
+        url: searchBase
+    })
 
-//     searchRequest.done((searchResponse) => {
-//         console.log()
+    searchRequest.done((searchResponse) => {
+        console.log(searchResponse)
 
-//     })
-// }
+    })
+}
 
 
 
 
 export {
     getData,
+    getSearchData
 
 }

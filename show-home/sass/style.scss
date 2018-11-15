@@ -1,0 +1,53 @@
+header {
+    position: relative;
+}
+
+.ulClass {
+    position: absolute;
+    right: 10vw;
+    top: 7.8vh;
+}
+.ulClass li {
+    list-style-type: none;
+    display: block;
+    width: 14vw;
+}
+
+#searchId {
+    position: absolute;
+    right: 8vw;
+    width: 14vw;
+
+}
+
+
+
+main {
+    text-align: center;
+    h1 {
+        font-size: 2em;
+    }
+    p {
+        display: inline-block;
+        width: 30%;
+
+        img {
+            width: 100%;
+            padding: 10px;
+
+        }
+        span {
+            width: 100%;
+        }
+    }
+    li a {
+        display: block;
+        color: white;
+    }
+}
+
+footer {
+    text-align: center;
+    background-color: silver;
+    
+}
